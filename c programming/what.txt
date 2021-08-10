@@ -1,0 +1,2 @@
+As a middle-level language, C combines the features of both high-level and low - level languages. It can be used for low-level programming, such as scripting for drivers and kernels and it also supports functions of high-level programming languages, such as scripting for software applications etc.
+Various features of C including direct access to machine level hardware APIs, the presence of C compilers, deterministic resource use and dynamic memory allocation make C language an optimum choice for  scripting applications and drivers of embedded systems.EOF

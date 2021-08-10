@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+  int n,a,c;
+  c=1;
+  printf("enter no. of which you want to print table : ");
+  scanf("%d",&n);
+  a=n;
+  while(a<=n*10)
+  {
+    printf("%d * %d = %d\n",n,c,a);
+    a+=n;
+    c++;
+  }
+  return 0;
+}

@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+	float a,b;
+	int add,sub,prod,div;
+	int mod;
+	printf("enter 1st value = ");
+	scanf("%f",&a);//scanf("format specifiers",&{address of}variable)
+	printf("enter 2nd value = ");
+	scanf("%f",&b);
+	add=a+b;/*implicit typecasting :- In this datatype changes automatically by the compiler (int=float+float)
+                  (int=float)
+                  (int=int)*/
+	sub=a-b;
+	prod=a*b;
+	div=a/b;
+	mod=(int)a%(int)b;/* explicit typecasting for both variables as one int can change the dattype of only one variable (here explicit typecasting is done because mod operator cannot perform operations on float datatype).*/
+	printf("add :- %f + %f = %d\n",a,b,add);
+	printf("sub :- %f - %f = %d\n",a,b,sub);
+	printf("prod :- %f * %f = %d\n",a,b,prod);
+	printf("div :- %f / %f = %d\n",a,b,div);
+	printf("mod :- %f %f = %d",a,b,mod);
+	return 0;
+}

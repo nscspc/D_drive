@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include<stdlib.h>
+int main(void)
+{
+  char s[10]="123456789";
+  printf("%f",atof(s));
+  printf("\n%f",s);
+  //printf("\n%f",(float)s);//wrong
+  return 0;
+}

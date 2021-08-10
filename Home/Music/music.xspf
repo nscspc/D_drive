@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Playlist</title>
+	<trackList>
+		<track>
+			<location>file:///C:/Users/Home/Music/Karan%20Nawani/Despacito%20%28Hindi%20Version%29%20%20_%20%20mGaana.IN/Despacito%20%28Hindi%20Version%29%20%20%5B_mGaana.IN_%5D.mp3</location>
+			<title>Despacito (Hindi Version)  [&quot;mGaana.IN&quot;]</title>
+			<creator>Karan Nawani</creator>
+			<album>Despacito (Hindi Version)  |  mGaana.IN</album>
+			<trackNum>1</trackNum>
+			<annotation>Download From -  mGaana.IN</annotation>
+			<image>file:///C:/Users/Home/AppData/Roaming/vlc/art/artistalbum/Karan%20Nawani/Despacito%20%28Hindi%20Version%29%20%20_%20%20mGaana.IN/art.jpg</image>
+			<duration>127086</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:item tid="0"/>
+	</extension>
+</playlist>

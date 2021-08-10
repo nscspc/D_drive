@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+	int i[1],arr[10]={1,2,3,4,56,7,8,9,41,2};
+	FILE *file;
+	char hash[1]={'#'};
+	file=fopen("array.dat","rb");
+	if(file==NULL)
+	{
+		printf("cannot open file");
+	}
+	else
+	{
+    do
+    {
+      fread(i,4,1,file);
+      printf("%d",i[0]);
+    }
+    while(feof(file)==0);
+		//fwrite(hash,sizeof(char),1,file);
+		//fwrite(arr,sizeof(arr),2,file);
+    /*fwrite(hash,sizeof(char),1,file);
+		*//*fread(arr,sizeof(arr),2,file);
+		for(i=0;i<;i++)
+		printf("%d",arr[i]);
+	*/}
+	return 0;
+
+}

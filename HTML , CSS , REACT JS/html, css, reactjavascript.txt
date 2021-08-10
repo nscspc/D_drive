@@ -1,0 +1,400 @@
+//dom make changes to the particular thing not the whole website.
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>React App</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script src="../src/indes.js" type="test/javascript"></script>
+</body>
+
+</html>
+
+__________________________________________________________________________________________________________________________________
+# reactjs
+//dom make changes to the particular thing not the whole website
+
+//as we have dependencies(pre-defined libraries) now we have to require it ;-
+var React=require("react");//react uses the Babel compiler to compile high level javascript to basic old javascript(low level browser based javascript) which can be used easily
+var ReactDOM=require("react-dom");
+
+//now we have to render(display) it:-
+ReactDOM.render(<h1>hello shapeai</h1>,document.getElementById("root"));
+//render takes 2 arguments:-
+//1.=>what to show.
+//2.=>where to show.
+// to render h1 element on the id(of div)"root" .
+
+____________________________________________________________________________________________________________________________________
+//new way to require(import) dependencies :-
+import React from "react";
+import ReactDOM from "react-dom";
+//now we have to render(display) it:-
+ReactDOM.render(<h1>hello shapeai</h1>,document.getElementById("root"));
+
+
+____________________________________________________________________________________________________________________________________
+#to use a variable to print its value:_
+
+var name="naveen";
+ReactDOM.render(<h1>hello {name}</h1>,document.getElementById("root"));
+
+/*
+output:
+hello naveen
+
+output without use of curly brackets:
+hello name
+*/
+
+
+
+ReactDOM.render(<h1>hello {7+6}</h1>,document.getElementById("root"));
+
+/*
+output:
+hello 13
+*/
+
+
+var fname="naveen";
+var lname="saini";
+ReactDOM.render(<h1>hello {fname+" "+lname}</h1>,document.getElementById("root"));
+
+/*
+output:
+hello naveen saini
+*/
+
+
+ReactDOM.render(<h1>hello {fname}{lname}</h1>,document.getElementById("root"));
+
+/*
+output:
+hello naveensaini
+*/
+
+
+ReactDOM.render(<h1>hello {fname} {lname}</h1>,document.getElementById("root"));
+
+/*
+output:
+hello naveen saini
+*/
+
+_____________________________________________________________________________________________________________________________________
+
+//template literal
+ReactDOM.render(<h1>hello {`${fname} ${lname}`}</h1>,document.getElementById("root"));
+//  ` => this sign (below tilda sign ) is known backstrick.
+
+/*
+output:
+hello naveen saini
+
+_____________________________________________________________________________________________________________________________________
+// to use more than one tags then we have to use(incluse) those all tags in a single div tag(like multiple things in a bag) otherwise error :-
+
+ReactDOM.render(
+  <div>
+    <h1>hello  shapeai</h1>
+    <p>this is very easy</p>
+  </div>,
+  document.getElementById("root")
+);
+
+/*
+output:
+hello shapeai(bold and somewhat big)
+this is very easy
+*/
+
+_____________________________________________________________________________________________________________________________________
+// a project:-
+
+//import dependencies
+import React from "react";
+import ReactDOM from "react-dom";
+
+//now requiring it
+
+ReactDOM.render(
+<div>
+  <h1>list of training course in shape ai :-</h1>
+  <p>data analyst</p>
+  <p>ai using python</p>
+  </div>,
+  document.getElementById("root")
+);
+
+/*
+output:
+list of training course in shape ai :-
+data analyst
+
+ai using python
+*/
+
+_________
+
+//import dependencies
+import React from "react";
+import ReactDOM from "react-dom";
+
+//now requiring it
+
+ReactDOM.render(
+<div>
+  <h1>list of training course in shape ai :-</h1>
+  <ul>
+    <li>data analyst</li>
+    <li>ai using python</li>
+  </ul>
+  </div>,
+  document.getElementById("root")
+);
+//for bullets points:-
+/*
+ul means unordered list.
+<!li means list .>
+*/
+
+/*
+output:
+
+list of training course in shape ai :-
+data analyst
+ai using python
+*/
+
+_____________________________________________________________________________________________________________________________________
+// to put colors in text :-
+
+//import dependencies
+import React from "react";
+import ReactDOM from "react-dom";
+
+//now requiring it
+
+ReactDOM.render(
+<div>
+  <h1 className="heading">list of training course in shape ai :-</h1>
+  <ul className="list">
+    <li>data analyst</li>
+    <li>ai using python</li>
+  </ul>
+  </div>,
+  document.getElementById("root")
+);
+//for bullets points:-
+/*
+ul means unordered list.
+<!li means list .>
+*/
+
+// className is a jsx(javascript xml) keyword .
+// class is already a keyword of javascript .
+// so class cannot be used here in html it will warning .
+
+/*
+
+output :
+
+list of training course in shape ai :-// in yellow colour
+data analyst//in white colour
+ai using python//in white colour
+
+*/
+_____________________________________________________________________________________________________________________________________
+
+// to add image :-
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+ReactDOM render
+(
+<div>
+<h1> list of training courses in shape ai</h1>
+<img src="https://yt3.ggpht.com/ytc/AAUvwnijqJmu6023PBUeNjnfIV4hucR3nAs9MiVJ3k2E=s900-c-k-c0x00ffffff-no-rj" alt="shape ai logo"/>
+<p>data analyst</p>
+<p>ai using python</p>
+</div>,
+document.getElementById("root")
+);
+_____________________________________________________________________________________________________________________________________
+
+// creating a custom function and calling a function :-
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+//now requiring it
+
+function Heading(){//h(function name first letter) should be capital
+  return <h1 className="heading">hello shapeai</h1>;
+}
+//to call the function:-  <Heading/>
+ReactDOM.render(
+<div>
+  <Heading/>
+  <h1 className="heading">list of training course in shape ai :-</h1>
+  <ul className="list">
+    <li>data analyst</li>
+    <li>ai using python</li>
+  </ul>
+  </div>,
+  document.getElementById("root")
+);
+
+/*
+
+// in headin.jsx file :-
+import React from "react";
+
+function Heading(){
+  return <h1 className="heading">shape ai</h1>
+}
+
+//now we have to export the function so that it can be used in another file.
+export default Heading;
+
+*/
+
+/*
+
+output:
+
+hello shapeai
+list of training course in shape ai :-
+data analyst
+ai using python
+
+*/
+
+____________________________________
+
+import Heading from "./heading";
+import List from "./list";
+ReactDOM.render(
+<div>
+  <Heading/>
+  <h1 className="heading">list of training course in shape ai :-</h1>
+  <List/>
+  </div>,
+  document.getElementById("root")
+);
+
+/*
+//in list.jsx file :-
+
+import React from "react";
+function List(){
+  return(
+  <ul className="List">
+    <li>a</li>
+    <li>b</li>
+  </ul>
+  );
+}
+export default List;
+
+*/
+
+/*
+
+output:
+
+shape ai
+list of training course in shape ai :-
+a
+b
+
+*/
+_________________________________
+// as everything is modular now we can call the functions :-
+
+ReactDOM.render(
+<div>
+  <Heading/>
+  <h1 className="heading">list of training course in shape ai :-</h1>
+  <List/>
+  <List/>
+  <List/>
+  <List/>
+  <List/>
+  <List/>
+  <List/>
+  <List/>
+  <List/>
+  <List/>
+  
+  </div>,
+  document.getElementById("root")
+);
+
+*/
+
+output:
+
+shape ai
+list of training course in shape ai :-
+a
+b
+
+a
+b
+
+a
+b
+
+a
+b
+
+a
+b
+
+a
+b
+
+a
+b
+
+a
+b
+
+a
+b
+
+a
+b
+
+*/
+
+_____________________________________________________________________________________________________________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>React App</title>
+  <link rel="stylesheet" href="styles.css"/>
+  //here link tag is used to import functions for css file.
+  //here href is the link to the file.
+</head>
+
+<body>
+  <div id="root"></div>
+	  <script src="../src/indes.js" type="test/JSX"></script>
+      // script tag is used to connect entire html to javascript or jsx file.
+      // src is the soure of file.
+    </body>
+
+</html>
+
+_____________________________________________________________________________________________________________________________________

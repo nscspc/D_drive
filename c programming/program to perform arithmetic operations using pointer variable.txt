@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+  int a=1,b=10;
+  int *ptra;  // 2 pointer variables cannot be declared together.
+  int *ptrb;
+
+  ptra=&a;
+  ptrb=&b;
+
+  printf("addition : %d\n",*ptra+*ptrb);
+  printf("substraction : %d\n",*ptra-*ptrb);
+  printf("division : %f\n",(float)*ptra/(*ptrb));//second value should be weitten in brackets in case of                                                       division and multiplication.
+  printf("multiplication : %d\n",*ptra*(*ptrb));
+}

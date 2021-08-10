@@ -1,0 +1,35 @@
+//calulator program on 2 no.s :-
+
+#include <stdio.h>
+
+int main()
+
+{
+	int n1,n2,choice;
+	int add,sub,mult;
+  float div;
+	printf("1. addition\n2. subtraction\n3. multiplication\n4.division\n enter your choice : ");
+	scanf("%d",&choice);
+	
+  printf("enter 1st no. : "); /*if values of variables are not taken then n1=0(minimum value of                                   integer) and n2=32765(maximum value of integer)*/
+  scanf("%d",&n1);
+  printf("enter 2nd no. : ");
+  scanf("%d",&n2);
+  
+  add=n1+n2;
+  sub=n1-n2;
+  mult=n1*n2;
+  div=(float)n1/n2;//ecplicit type casting
+
+	switch(choice)
+	{
+		case 1:printf("%d + %d = %d\n",n1,n2,add);break;
+		case 2:printf("%d - %d = %d\n",n1,n2,sub);break;
+		case 3:printf("%d * %d = %d\n",n1,n2,mult);break;
+		case 4:printf("%d / %d = %f\n",n1,n2,div);break;
+		
+    default : printf("wrong input");
+	}
+	
+	return 0;
+}

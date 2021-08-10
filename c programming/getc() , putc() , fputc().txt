@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    char b;
+    char a='c';
+    FILE *f;
+    f=fopen("fgets.txt","w+");
+    
+    fputc(a,f);
+
+    putc(a,f);
+    
+    rewind(f);
+    
+    b=getc(f);
+    printf("%c",b);
+
+    b=getc(f);
+    printf("%c",b);
+}

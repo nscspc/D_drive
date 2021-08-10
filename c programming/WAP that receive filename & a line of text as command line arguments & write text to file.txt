@@ -1,0 +1,40 @@
+/*WAP that receive filename & a line of text as command line arguments & write text to file*/
+
+#include <stdio.h>
+
+int main(int argc,char *argv[])
+{
+  FILE *f;
+  int i;
+  char word[15];
+
+  f=fopen(argv[1],"w");
+
+  printf("\nNo. of arguments in command line = %d\n\n",argc);
+
+  for(i=2;i<argc;i++)
+  {
+    fprintf(f,"%s",argv[i]);
+  }
+  fclose(f);
+
+  //writing content of the file to the screen//
+  printf("contents of %s file\n\n",argv[1]);
+  f=fopen(argv[1],"r");
+
+  for(i=2;i<argc;i++)
+  {
+    fscanf(f,"%s",word);
+    printf("%s",word);
+  }
+  fclose(f);
+  printf("\n\n");
+
+  //writing the arguments from memory//
+  for(i=2;i<argc;i++)
+  {
+    printf("%*s",i*5,argv[i]);
+  }
+  printf("Hello World\n");
+  return 0;
+}

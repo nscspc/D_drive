@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() 
+{
+    int c,a[5]={1,2,3,4,5};
+    int b[5];
+    
+    for(c=0;c<5;c++)//loop to copy values.
+    {
+        b[c]=a[c];
+    }
+    
+    for(c=0;c<5;c++)//loop to print values.
+    {
+        printf("%d ",b[c]);
+    }
+    
+    return 0;
+}
+  

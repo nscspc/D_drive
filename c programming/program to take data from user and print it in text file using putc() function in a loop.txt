@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void) 
+{
+  FILE *file;
+  char ch;
+  file=fopen("student.txt","w");
+  if (file==NULL)
+  {
+    printf("cannot open file .");
+    return 0;
+  }
+  else
+  {
+    printf("enter the data : ");
+
+    while(ch!='#')//character(char) value can never be enclosed in                      double inverted commas.only in single inverted commas.
+    {
+      scanf("%c",&ch);
+      putc(ch,file);
+    }
+  }
+  fclose(file);
+  return 0;
+}

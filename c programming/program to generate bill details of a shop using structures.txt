@@ -1,0 +1,42 @@
+#include<stdio.h>
+
+struct sb
+{
+  char name[50];
+  int no;
+  float price;
+};
+int main()
+{
+  int n;
+  printf("total no of diff types of items purchased : ");
+  scanf("%d",&n);
+  int m=n;
+  float sum;
+  float total[n];
+  struct sb b1[n];
+  for(n=0;n<m;n++)
+  {
+  
+
+  printf("enter name of product : ");
+  scanf("%s",b1[n].name);
+  printf("enter price of 1 item : ");
+  scanf("%f",&b1[n].price);
+  printf("enter quantity : ");
+  scanf("%d",&b1[n].no);
+
+  total[n]=total[n]+((b1[n].no)*(b1[n].price));
+  }
+  for(n=0;n<m;n++)
+  {
+    sum=sum+total[n];
+  }
+  printf("Name of Product    no. of items    total price of the product\n");
+  for(n=0;n<m;n++)
+  {printf("    %s                 %d                   %f          \n",b1[n].name,b1[n].no,total[n]);}
+  printf("__________________________________________________________________\n");
+  printf("       total    amount         :             %.2f\n",sum);
+  printf("TAXES (@ 13 % )    :   %.2f\n",(sum*13/100));
+  printf("__________________________________________________________________");
+}

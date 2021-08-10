@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void) 
+{
+  FILE *file;
+  char ch;
+  file=fopen("student.txt","w");//fopen() function returns an address after opening the file which get stored in file (pointer variable).
+
+  if (file==NULL)
+  {
+    printf("cannot open file .");
+    return 0;
+  }
+  else
+  {
+    printf("enter a character : ");
+    scanf("%c",&ch);
+    putc(ch,file);
+  }
+  fclose(file);//to avoid accidental error.
+  return 0;
+}

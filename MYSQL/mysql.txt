@@ -1,0 +1,54 @@
+(1) use student;
+(2) select*from student;
+(3) select*from result;
+(4) show databases;
+(5) show tables;
+(6) select* from student order by name;
+(7) select* from student order by name desc;
+(8) describe student;
+(9) select count(marks) from result where marks>90;
+(10) select count(exam) from result where marks>90 and exam='fa2';
+(11) update result set marks=marks-5 where exam='fa2';
+(12) update result set marks=marks+5 where exam='fa2';
+(13) select student.srno,name,marks from student,result where student.srno=result.srno;
+(14) select result.srno,exam,name,class,section,marks from student,result where student.srno=result.srno and name='naveen';
+(15) select class, count(srno)
+      from student
+      group by class;
+(16) select class, count(srno)
+      from student
+      group by srno;
+(17) select class,section, count(srno)
+      from student
+      group by class,section;
+(18) select class,section,count(srno) as "strength" from student;
+(19) select*from student
+      where name like 'a%';
+(20) select*from student
+      where name like '%a%';
+(21) select*from student
+      where name like '___a%';
+(22) select name from student;
+(23) select distinct name from student;
+(24) select sum(marks) from result;
+(25) select*from student where srno=11111 or srno=12222 or srno=10000;
+(26) select*from student where srno in(11111,12222,10000);
+(27) select * from student where srno between 11111 and 14444;
+(28) alter table student
+      add column email varchar(50);
+(29) alter table student
+      drop column email;
+(30) alter table student
+      add primary key(srno);
+(31) alter table student
+      change class standard int(2);
+(32) select name,count(exam)
+      from student,result
+      where student.srno=result.srno
+      group by name;
+(33) update student,result
+      set marks=marks+ marks*10/100.
+      where student.srno=result.srno
+      and name='naveen';
+(34) select mid(name,2,4) from student;
+

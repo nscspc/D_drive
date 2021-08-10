@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+  int rupees,rs50,rs10,rs5,rs1;
+   
+  printf("enter amount in rupees :- ");
+  scanf("%d",&rupees);
+
+  rs50=rupees/50;
+  rupees=rupees%50;
+
+  rs10=rupees/10;
+  rupees=rupees%10;
+
+  rs5=rupees/5;
+  rupees=rupees%5;
+
+  rs1=rupees;
+
+  printf("50rs notes = %d\n10rs notes = %d\n5rs notes = %d\n1rs notes = %d\n",rs50,rs10,rs5,rs1);
+
+  return 0;
+
+}

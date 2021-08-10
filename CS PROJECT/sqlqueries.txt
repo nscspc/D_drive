@@ -1,0 +1,72 @@
+1.) create database college;
+2.)create table credentials
+    -> (Username varchar(20),
+    -> Password varchar(20));
+
+3.) insert into credentials values("Randheer@college","variance");#example of entering records
+4.)Create table btechresult
+    -> (Rollno int(7),
+    -> Name varchar(20),
+    -> Physics int(5),
+    -> Maths int(6));
+
+5.)create table comresult
+    -> (Rollno int(7),
+    -> Name varchar(20),
+    -> BST int(5),
+    -> Accountancy int(3),
+    -> Economics int(3));
+
+6.) Create table Teachercred
+    -> (Username varchar(20),
+    -> Password varchar(20));
+
+7.) Create table StudentAssessment
+    -> (Rollno int(8),
+    -> Name varchar(20),
+    -> SpeakingSkills char(4),
+    -> Personality char(3),
+    -> Academics char(3),
+    -> PersonalHygiene char(4));
+
+8.) create table adcred
+    -> (Username varchar(20),
+    -> Password varchar(20));
+
+9.) create table studentprofile
+    -> (Rollno int(6),
+    -> Name varchar(20),
+    -> FatherName varchar(20),
+    -> MotherName varchar(20),
+    -> Address varchar(40),
+    -> PhoneNo int(10),
+    -> City varchar(20),
+    -> FeeStatus char(5));
+
+10.)create table Teachersappraisalbtech
+    -> (StudentRollno int(7),
+    -> PhysicsFaculty char(3),
+    -> ChemFaculty char(3));
+
+11.)create table teachersappraisalcoms
+    -> (Rollno int(7),
+    -> BSTGrade char(5),
+    -> Accountacygrade char(5),
+    -> Economicsgrade char(5));
+
+12.) create table Teacherdetail
+    -> (Name varchar(20),
+    -> Post char(7),
+    -> Phoneno int(20),
+    -> Salary int(5));
+
+13.) create table btech_fee_structure
+    -> (year char(10),
+    -> fee int(10));
+
+14.) create table com_fee_structure
+    -> (year char(10),
+    -> fee int(10));
+
+
+

@@ -1,0 +1,50 @@
+#include<stdio.h>
+
+void min();
+
+int main()
+{
+	min();
+	return 0;
+}
+
+void min()
+{
+	int i,j,tmp,n;
+	
+	printf("enter the no. of elements you want to enter in the array : ");
+	scanf("%d",&n);
+	int a[n];
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	
+	for(i=0;i<n;i++)
+	{
+		for(j=0;j<n;j++)//a[5]={0,1,4,5,2};
+		{
+			tmp=a[i];
+			if (tmp<a[j])//reverse the logical operator sign to arrange in ascending order
+			{
+				a[i]=a[j];
+				a[j]=tmp;
+			}
+		}
+		
+	}
+	
+  printf("array = { ");
+	for(i=0;i<n;i++)
+	{
+    if (i!=n-1)
+		printf("%d , ",a[i]);
+    else
+    printf("%d",a[i]);
+  }
+  printf("}\n");
+
+  printf("smallest value from the array is : %d",a[0]);
+
+
+}

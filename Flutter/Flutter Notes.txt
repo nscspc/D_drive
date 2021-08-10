@@ -1,0 +1,95 @@
+INFORMATION REGARDING FOLDERS :-
+
+android folder :- anything related to android native thing will be kept inside the android folder.
+
+ios folder :- anything related to ios will be kept inside this folder.
+
+library folder :- will contains the main.dart in which we write the code.
+
+web :- if we are building for web application then this folder things regarding web application.
+
+pubspec :- we are keeping the settings related to the application OR project.
+
+______________________________________________________________________________________________
+
+EXECUTION OF PROGRAM:-
+
+we program is run , then first of all main file is called , and then code is executed.
+
+________________________________________________________________________________________________
+
+IN FLUTTER EVERYTHING IS WIDGET :-
+
+(1)=> Text() -> used for display text.
+
+(2)=> Image.network() -> used to display image.
+
+(3)=> Drawer() -> used for displaying side menu.
+
+(4)=> Button ->
+	(a) TextButton()
+	(b) ElevatedButton()
+	(c) FloatingActionButton()
+	(d) OutLineButton
+
+,etc
+_________________________________________________________________________________________________
+
+IMPORTANT WIDGET :-
+
+(1)=> MaterialApp() -> root widget of all materail widget.
+
+(2)=> Scaffold() -> Every single page is call scaffold.
+
+(3)=> Container -> it's a empty box, used to hold widgets,add space in & around.
+
+(4)=> Buttons -> TextButton() , ElevatedButton() , OutLineButton() .
+
+(5)=> Text() -> used for displaying text .
+
+(6)=> Image.network() , Image.asset() , CircleAvatar() -> for displaying image .
+
+(7)=> Row() , Column() -> Alignment .
+
+_________________________________________________________________________________________________
+
+EVERYTHING IS IN TREE STRUCTURE :-
+
+two types of widgets ;-
+
+=> Single child Widget -> which can hold only one widget. -> child : widget
+
+=> Multi child Widget -> it can hold more than one widget. -> Column(children:[widgets])
+
+_________________________________________________________________________________________________
+
+CUSTOM WIDGET :-
+
+2 TYPES:
+
+(1)=> StatelessWidget -> it is fixed does not change.it is used to display static data.
+
+(2)=> StatefulWidget -> it is used for displaying dynamic content or design
+
+___________________________________________________________________________________________________
+
+FLUTTER BASIC COMMANDS :-
+
+(1). to create new project (no space for project name):-
+=> flutter create projectname
+
+(2). to run flutter project :-
+=> flutter run 
+
+(3). to check connected device :-
+=> flutter devices
+
+(4). to run on a connected device :-
+=> flutter run -d all
+
+(5). to clear cache :-
+=> flutter cache
+
+(6). to generate apk
+=> flutter build apk
+____________________________________________________________________________________________________

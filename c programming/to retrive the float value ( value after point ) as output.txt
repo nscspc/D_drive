@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) 
+{
+  float n,s;
+
+  printf("enter float value : ");
+  scanf("%f",&n);
+
+  s=n-(int)n;
+  printf("%f",s);
+  return 0;
+}

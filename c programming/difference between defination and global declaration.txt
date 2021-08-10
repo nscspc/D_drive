@@ -1,0 +1,32 @@
+//defination and global declaration difference /*( documentation section )*/
+#include<stdio.h> /*( linking section )*/
+//#include<conio.h> /*( linking section )*/
+void add(void);
+void print(void);
+#define pi 3.14 /*( defination )*/
+int a=4; /*( global declaration )*/
+int main(void) /*( main function )*/
+{
+  add();
+  printf("%f",pi);
+  //add();
+  int a=10;
+	printf("%d",a);
+  print();
+  printf("%d",a);
+}
+void add()
+{
+  a=5;
+}
+void print()
+{
+  printf("%d",a);
+}
+_____________________________________________________________________________________________________________________________________
+
+DEFINATION : the variable defined using define directive then its value can be used in any functions but its value cannot be changed(altered) anywhere , it get fixed , and the variable with the same name cannot be declare or define anywhere.
+
+GLOBAL DECLARATION : in global declaration variable is declared which is accessible in all the functions and its value can also be altered in any functions , if its value is altered then the value gets updated.
+if a local variable of  same name is defined in the funtion then the value of local variable is used but only in that function only.
+_____________________________________________________________________________________________________________________________________

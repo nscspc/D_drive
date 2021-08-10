@@ -1,0 +1,101 @@
+(function() {
+
+    var __hs_cta_json = {"css":"a#cta_button_53_876c8edc-bcdf-4621-9b23-a828909453df {\n    cursor: pointer !important;\n\n    \n  }\n\na#cta_button_53_876c8edc-bcdf-4621-9b23-a828909453df:hover {\n}\n\na#cta_button_53_876c8edc-bcdf-4621-9b23-a828909453df:active, #cta_button_53_876c8edc-bcdf-4621-9b23-a828909453df:active:hover {\n}\n\n","image_html":"<a id=\"cta_button_53_876c8edc-bcdf-4621-9b23-a828909453df\" class=\"cta_button\" href=\"/cs/c/?cta_guid=876c8edc-bcdf-4621-9b23-a828909453df&placement_guid=c791aced-6180-48a5-916d-b2d76cec1836&portal_id=53&canon=https%3A%2F%2Fblog.hubspot.com%2Fblog%2Ftabid%2F6307%2Fbid%2F34006%2F15-examples-of-brilliant-homepage-design.aspx&redirect_url=APefjpF4ArMFVjNBbdWPpC6iqJCdtowU1oR7UgW0_fduMfwVG87gEv7FAdSWlCTPW3htCAmA09SEcZVoANhPAq3_0zS71tnLfiul4loZTqweWsofVoZ-3mVNbrRTwioSA9OEc3cFEaLuaFtjs8mmrgRejqCZqGa0qQXd8vs7BkWqTa7C8RCVEUhUoHMy6kX09oK3laOjDsCZ&click=d9cc52f9-95e6-4c3b-af11-373c3bac5756&hsutk=c7a0000016a91819190d016b85f9299b&utm_referrer=https%3A%2F%2Fwww.google.com%2F&pageId=24325901\"  target=\"_blank\"  cta_dest_link=\"http://offers.hubspot.com/examples-of-brilliant-homepage-design?hubs_post-cta=anchor\"><img id=\"hs-cta-img-c791aced-6180-48a5-916d-b2d76cec1836\" class=\"hs-cta-img \" style=\"border-width: 0px; /*hs-extra-styles*/\" mce_noresize=\"1\" alt=\"Free Download: 77 Examples of Brilliant Web Design \" src=\"https://cdn2.hubspot.net/hubshot/19/04/09/597ed927-4e1e-4ec3-a818-47d09689e5a9.png\" srcset=\"https://cdn2.hubspot.net/hubshot/19/04/09/856bda21-e335-4e6e-8e47-e903dc21c157.png 4x, https://cdn2.hubspot.net/hubshot/19/04/09/7b272b36-42ba-46f1-b5d3-b3093d7be08f.png 3x, https://cdn2.hubspot.net/hubshot/19/04/09/08de216d-216a-4828-b368-aef8078d27bf.png 2x\"/></a>","is_image":false,"placement_element_class":"hs-cta-c791aced-6180-48a5-916d-b2d76cec1836","raw_html":"<a id=\"cta_button_53_876c8edc-bcdf-4621-9b23-a828909453df\" class=\"cta_button \" href=\"/cs/c/?cta_guid=876c8edc-bcdf-4621-9b23-a828909453df&placement_guid=c791aced-6180-48a5-916d-b2d76cec1836&portal_id=53&canon=https%3A%2F%2Fblog.hubspot.com%2Fblog%2Ftabid%2F6307%2Fbid%2F34006%2F15-examples-of-brilliant-homepage-design.aspx&redirect_url=APefjpF4ArMFVjNBbdWPpC6iqJCdtowU1oR7UgW0_fduMfwVG87gEv7FAdSWlCTPW3htCAmA09SEcZVoANhPAq3_0zS71tnLfiul4loZTqweWsofVoZ-3mVNbrRTwioSA9OEc3cFEaLuaFtjs8mmrgRejqCZqGa0qQXd8vs7BkWqTa7C8RCVEUhUoHMy6kX09oK3laOjDsCZ&click=d9cc52f9-95e6-4c3b-af11-373c3bac5756&hsutk=c7a0000016a91819190d016b85f9299b&utm_referrer=https%3A%2F%2Fwww.google.com%2F&pageId=24325901\" target=\"_blank\" style=\"/*hs-extra-styles*/\" cta_dest_link=\"http://offers.hubspot.com/examples-of-brilliant-homepage-design?hubs_post-cta=anchor\" title=\"Free Download: 77 Examples of Brilliant Web Design \"><h3><span style=\"color: #3288e6;\">Free Download: 77 Examples of Brilliant Web Design&nbsp;</span></h3></a>"};
+    var __hs_cta = {};
+
+    __hs_cta.drop = function() {
+        var is_legacy = document.getElementById('hs-cta-ie-element') && true || false,
+            html = __hs_cta_json.image_html,
+            tags = __hs_cta.getTags(),
+            is_image = __hs_cta_json.is_image,
+            parent, _style;
+
+        if (!is_legacy && !is_image) {
+            parent = (document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]);
+
+            _style = document.createElement('style');
+            parent.insertBefore(_style, parent.childNodes[0]);
+            try {
+                default_css = ".hs-cta-wrapper p, .hs-cta-wrapper div { margin: 0; padding: 0; }";
+                cta_css = default_css + " " + __hs_cta_json.css;
+                // http://blog.coderlab.us/2005/09/22/using-the-innertext-property-with-firefox/
+                _style[document.all ? 'innerText' : 'textContent'] = cta_css;
+            } catch (e) {
+                // addressing an ie9 issue
+                _style.styleSheet.cssText = cta_css;
+            }
+
+            html = __hs_cta_json.raw_html;
+
+        }
+         
+
+        for (var i = 0; i < tags.length; ++i) {
+
+            var tag = tags[i];
+            var images = tag.getElementsByTagName('img');
+            var cssText = "";
+            var align = "";
+            for (var j = 0; j < images.length; j++) {
+                align = images[j].align;
+                images[j].style.border = '';
+                images[j].style.display = '';
+                cssText = images[j].style.cssText;
+            }
+
+            if (align == "right") {
+                tag.style.display = "block";
+                tag.style.textAlign = "right";
+            } else if (align == "middle") {
+                tag.style.display = "block";
+                tag.style.textAlign = "center";
+            }
+
+            tag.innerHTML = html.replace('/*hs-extra-styles*/', cssText);
+            tag.style.visibility = 'visible';
+            tag.setAttribute('data-hs-drop', 'true');
+            window.hbspt && hbspt.cta && hbspt.cta.afterLoad && hbspt.cta.afterLoad('c791aced-6180-48a5-916d-b2d76cec1836');
+        }
+
+        return tags;
+    };
+
+    __hs_cta.getTags = function() {
+        var allTags, check, i, divTags, spanTags,
+            tags = [];
+            if (document.getElementsByClassName) {
+                allTags = document.getElementsByClassName(__hs_cta_json.placement_element_class);
+                check = function(ele) {
+                    return (ele.nodeName == 'DIV' || ele.nodeName == 'SPAN') && (!ele.getAttribute('data-hs-drop'));
+                };
+            } else {
+                allTags = [];
+                divTags = document.getElementsByTagName("div");
+                spanTags = document.getElementsByTagName("span");
+                for (i = 0; i < spanTags.length; i++) {
+                    allTags.push(spanTags[i]);
+                }
+                for (i = 0; i < divTags.length; i++) {
+                    allTags.push(divTags[i]);
+                }
+
+                check = function(ele) {
+                    return (ele.className.indexOf(__hs_cta_json.placement_element_class) > -1) && (!ele.getAttribute('data-hs-drop'));
+                };
+            }
+            for (i = 0; i < allTags.length; ++i) {
+                if (check(allTags[i])) {
+                    tags.push(allTags[i]);
+                }
+            }
+        return tags;
+    };
+
+    // need to do a slight timeout so IE has time to react
+    setTimeout(__hs_cta.drop, 10);
+    
+    window._hsq = window._hsq || [];
+    window._hsq.push(['trackCtaView', 'c791aced-6180-48a5-916d-b2d76cec1836', '876c8edc-bcdf-4621-9b23-a828909453df']);
+    
+
+}());

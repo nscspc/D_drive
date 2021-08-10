@@ -1,0 +1,16 @@
+#include<iostream>//input output stream is the header file used for input output operation.
+int main()
+{
+  std::cout<<"hello world";
+  // :: => scope resolution operator -> it defines the scope of the statement .
+  //std => standard(full form),namespace.
+  //cout=> console output.
+
+}
+
+/*
+output:
+
+hello world
+
+*/

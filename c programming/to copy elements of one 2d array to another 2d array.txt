@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() 
+{
+    int r,c,brr[3][3];  /*  here in 2d array while declaration of                     an array it is necessary to write no.                     of rows and columns , while in 1d                         array it is not necessary to write no.                     of columns  */
+    int arr[3][3]=
+    {
+        {1,4,7},
+        {2,5,8},
+        {3,6,9}
+    };
+    
+    for(r=0;r<3;r++)
+    {
+        for(c=0;c<3;c++)
+        {
+            brr[r][c]=arr[r][c] ;  
+            
+        }
+    }
+    for(r=0;r<3;r++)
+    {
+        for(c=0;c<3;c++)
+        {
+            printf("%d ",brr[r][c]);
+            
+        }
+        printf("\n");
+    }
+    return 0;
+}
+  

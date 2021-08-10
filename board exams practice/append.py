@@ -1,0 +1,5 @@
+file=open("e:\\read1.txt","a")
+file.write("we are writing \n")
+file.write("data to a \n")
+file.write("text file")
+file.close()

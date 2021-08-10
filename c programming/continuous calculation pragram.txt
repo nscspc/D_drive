@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+  float n1,n2;
+  char op,loop;
+
+  printf("enter equation : ");
+  scanf("%f%c%f",&n1,&op,&n2);
+
+for(loop='a';loop!='q';)
+{
+  switch(op)
+  {
+    case '+':printf("%f",n1+n2);n1=n1+n2;break;
+     case '-':printf("%f",n1-n2);n1=n1-n2;break;
+      case '*':printf("%f",n1*n2);n1=n1*n2;break;
+       case '/':printf("%f",(float)n1/n2);n1=n1/n2;;break;
+  }
+  loop=(char)n2;
+  scanf("%f",&n2);
+}
+
+
+}

@@ -1,0 +1,19 @@
+#include<iostream>//input output stream is the header file used for input output operation.
+using namespace std;
+int main()
+{
+  cout<<"hello world"<<endl;//endl cannot be used without using namespace std; because namespace is also a library .
+  // endl is used to change the line. or it denotes the end of the line
+  cout<<"hello";
+  // :: => scope resolution operator -> it defines the scope of the statement .
+  //std => standard(full form),namespace.
+  //cout=> console output.
+
+}
+/*
+output:
+
+hello world 
+hello
+
+*/

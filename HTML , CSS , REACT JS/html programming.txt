@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"> <! in this case meta tag defines the type of character set(utf-8) that contains definition of all the characters(a,d,a,f,d,1,2,3,etc) >
+
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" /> <! using link tag we can add link of some other source of <information></i  </head>
+  <body>
+    <div id="root"> <! id is a selector : which provides a unique name(address type) to the div tag , it is useful when we use many div tags>
+    <h1>heading</h1>
+    <p>dsafdsas fddsaff sda fdsa
+  safaf s sdaf sa
+  s affdsaf as </p>  
+    <script src="script.js"></script> <! script tag enables us to code from another language 
+    and links the code to <it></it>
+    </div>
+  </body>
+</html>
+
+<! DOM = document object model : it is equivalent to the tree structure of html 
+	document->html->head and body->title h1 etc>

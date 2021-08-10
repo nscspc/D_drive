@@ -1,0 +1,45 @@
+#include<stdio.h>
+
+void binary(int);
+void arrayprt(int [],int);
+
+int i=0;
+int digit[100];
+
+int main()
+{
+	int b;
+	printf("enter the value in decimal that you want to convert in binary : ");
+	scanf("%d",&b);
+	binary(b);
+	return 0;
+}
+
+void binary(int n)
+{
+	int remain;
+	
+    if (n>=2)
+	{
+		remain=n%2;
+		n=n/2;
+		digit[i]=remain;
+		i++;
+        binary(n);
+	}
+	else
+	{
+		digit[i]=n;
+        arrayprt(digit,i);
+	}
+}
+	
+  void arrayprt(int a[],int j)
+	{
+    if (j>=0)
+		{
+      printf("%d",a[j]);
+      j--;
+      arrayprt(digit,j);
+    }
+	}

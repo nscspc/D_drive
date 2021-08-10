@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main()
+{
+    char b;
+    char s[10];
+    char a='c';
+    char *c[10];
+    FILE *f;
+    f=fopen("fgets.txt","w+");
+    
+    fputc(a,f);
+
+    putc(a,f);
+    
+    rewind(f);
+    
+    b=getc(f);
+    printf("%c",b);
+
+    b=getc(f);
+    printf("%c",b);
+
+    rewind(f);
+    fgets(s,3,f);
+    printf("%s",s);
+
+    fputs("as",f);
+
+    rewind(f);
+    fgets(s,10,f);
+    printf("\n%s",s);
+
+    rewind(f);
+    gets(s);
+    printf("\n%s",s);
+}

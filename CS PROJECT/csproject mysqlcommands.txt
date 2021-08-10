@@ -1,0 +1,27 @@
+create database cmg;
+
+use cmg;
+
+create table staff
+(S_ID varchar(10),
+S_name varchar(50),
+S_gender char(1),
+S_post varchar(50),
+S_salary int(10),
+S_contact varchar(10),
+S_address varchar(50),
+S_email varchar(50));
+
+create table student
+(st_id varchar(10),
+st_name varchar(50),
+st_class char(5),
+st_subject varchar(50),
+st_contact varchar(10),
+st_address varchar(50),
+st_email varchar(50));
+
+create table fee
+(class char(5),
+subject varchar(50),
+fee int(15));

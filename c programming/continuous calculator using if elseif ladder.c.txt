@@ -1,0 +1,42 @@
+#include<stdio.h>
+
+int main()
+{
+  double n1,n2;
+  char op;
+
+  printf("enter equation : ");
+  scanf("%lf%c%lf",&n1,&op,&n2);
+condition:     //label
+while(op!='Q')
+{
+	if(op=='+')
+	{
+		printf("%lf",n1+n2);
+		n1=n1+n2;
+	}
+	else if(op=='-')
+	{
+		printf("%lf",n1-n2);
+		n1=n1-n2;
+	}
+	else if(op=='*')
+	{
+		printf("%lf",n1*n2);
+		n1=n1*n2;
+	}
+	else if(op=='/')
+	{
+		printf("%lf",n1/n2);
+		n1=n1/n2;
+	}
+	else
+	{
+		printf("invalid operator used.....");
+		op='Q';
+		goto condition;
+	}
+  scanf("%c%lf",&op,&n2);
+}
+return 0;
+}

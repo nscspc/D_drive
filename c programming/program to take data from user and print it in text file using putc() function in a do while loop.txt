@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void) 
+{
+  FILE *file;
+  char ch;
+  file=fopen("student.txt","w");
+  if (file==NULL)
+  {
+    printf("cannot open file .");
+    return 0;
+  }
+  else
+  {
+    printf("enter the data : ");
+
+    do
+    {
+      putc(ch,file);
+      scanf("%c",&ch);
+    }while(ch!='#');
+  }
+  fclose(file);
+  return 0;
+}

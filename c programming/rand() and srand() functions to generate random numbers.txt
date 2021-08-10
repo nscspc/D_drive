@@ -1,0 +1,80 @@
+//---------------------------------------------------
+#include <stdio.h>
+#include<stdlib.h>
+#include<time.h>
+
+int main(void) 
+{
+  srand(time(0)); // if time(1) then error , means any value other than 0 in time function will cause error in this case.//
+  for(int i=0;i<5;i++)
+  printf("\n%d",rand()%10);
+  /* %5 : for 0 to 5 range
+     %10 : for 0 to 10 range */ 
+  //printf("%d",srand(5));//wrong
+  return 0;
+}
+//---------------------------------------------------
+/*
+
+rand ()
+
+The rand() function is used in C/C++ to generate random numbers in the range [0, RAND_MAX). 
+
+Note: If random numbers are generated with rand() without first calling srand(), your program will create the same sequence of numbers each time it runs.
+
+syntax : 
+
+ int rand(void): 
+returns a pseudo-random number in the range of [0, RAND_MAX).
+RAND_MAX: is a constant whose default value may vary 
+\between implementations but it is granted to be at least 32767.
+
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main(void)
+{
+    // This program will create same sequence of
+    // random numbers on every program run
+ 
+    for(int i = 0; i<5; i++)
+        printf(" %d ", rand());
+   
+    return 0;
+}
+
+srand()
+
+The srand() function sets the starting point for producing a series of pseudo-random integers. If srand() is not called, the rand() seed is set as if srand(1) were called at program start. Any other value for seed sets the generator to a different starting point. 
+
+Syntax: 
+ 
+void srand( unsigned seed ): 
+Seeds the pseudo-random number generator used by rand() with the value seed.
+
+// C program to generate random numbers
+#include <stdio.h>
+#include <stdlib.h>
+#include<time.h>
+ 
+// Driver program
+int main(void)
+{
+    // This program will create different sequence of
+    // random numbers on every program run
+ 
+    // Use current time as seed for random generator
+    srand(time(0));
+ 
+    for(int i = 0; i<4; i++)
+        printf(" %d ", rand());
+ 
+    return 0;
+}
+
+How srand() and rand() are related to each other?
+
+srand() sets the seed which is used by rand to generate “random” numbers. If you don’t call srand before your first call to rand, it’s as if you had called srand(1) to set the seed to one. 
+In short, srand() — Set Seed for rand() Function. 
+ 
+*/

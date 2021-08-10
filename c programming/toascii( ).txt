@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include<stdlib.h>
+#include<ctype.h>
+int main(void)
+{
+  int a='8';
+  printf("%d",toascii(a));
+  //printf("Hello World\n");
+  return 0;
+}

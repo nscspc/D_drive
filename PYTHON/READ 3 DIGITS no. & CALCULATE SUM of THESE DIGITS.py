@@ -1,0 +1,10 @@
+no=int(input("enterr no."))
+x=1
+div=100
+sum=0
+while(x<=3):
+    sum=sum+(no//div)
+    no=no%div
+    div=div//10
+    x=x+1
+print("sum =",sum)

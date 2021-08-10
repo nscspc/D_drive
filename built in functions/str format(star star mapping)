@@ -1,0 +1,35 @@
+p={'x':1,"y":"a"}
+print('{x} {y}'.format(**p))
+
+'''
+The format_map() method is similar to str.format(**mapping) except that str.format(**mapping) creates a new dictionary whereas str.format_map(mapping) doesn't.
+
+Before talking about format_map(). Let's see how
+
+
+The format_map(mapping) is similar to str.format(**mapping) method.
+
+The only difference is that str.format(**mapping) copies the dict whereas str.format_map(mapping) makes a new dictionary during method call. This can be useful if you are working with a dict subclass.
+
+The syntax of format_map() is
+
+str.format_map(mapping)
+
+'''
+#how format_map( ) works:
+
+print('{x} {y}'.format_map(p))
+
+try:
+    print('{x} {y} {z}'.format_map(p))
+except:
+    print("z is not any key")
+
+#how format_map( ) works with dict subclass :
+
+class coordinate(dict):
+    def missing(self,key):
+        return(key)
+
+print('({x} , {z})'.format_map(coordinate(x='6',z='4')))
+

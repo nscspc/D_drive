@@ -1,0 +1,27 @@
+### mysql password must be ="1234" otherwise change the whole programme with the password of your mysql ###
+
+create database hotel;
+
+use hotel;
+
+create table cred(user_n varchar(50) primary key,
+passwd varchar(50));
+
+create table staff(s_id varchar(50) primary key,
+s_name varchar(50),
+s_addr varchar(50),
+s_phone varchar(50),
+s_salary varchar(50),
+s_post varchar(50));
+
+create table menu(i_code varchar(50) primary key,
+i_name varchar(50),
+i_price varchar(50));
+
+create table stock(it_code varchar(50) primary key,
+it_name varchar(50),
+it_quan_in_kg decimal(20,2));
+
+### then run the programme ###
+
+!!! NOTICE:- Make sure that you have the latest version of mysql and all the essintial connectors for connecting mysql and python/anaconda!!!

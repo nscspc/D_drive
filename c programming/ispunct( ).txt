@@ -1,0 +1,31 @@
+/*
+The ispunct() function checks whether a character is a punctuation character or not.
+The term “punctuation” as defined by this function includes all printable characters that are neither alphanumeric nor a space. For example ‘@’, ‘$’, etc.
+This function is defined in ctype.h header file.
+
+syntax:
+int ispunct(int ch);
+ch: character to be checked.
+Return Value  : function return nonzero
+ if character is a punctuation character;
+ otherwise zero is returned.
+ */
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<ctype.h>
+int main()
+{
+    char a='c';
+    int b=' ';
+    int c='!';
+    int d='1';
+    int e='/';
+
+    printf("%d",ispunct(a));
+    printf("\n%d",ispunct(b));
+    printf("\n%d",ispunct(c));
+    printf("\n%d",ispunct(d));
+    printf("\n%d",ispunct(e));
+    printf("\n%d",ispunct('#'));
+}

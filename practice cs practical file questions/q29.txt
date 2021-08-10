@@ -1,0 +1,6 @@
+Write a 
+program to write 
+those lines which 
+have the character '
+p' from one text file 
+to another text file. 

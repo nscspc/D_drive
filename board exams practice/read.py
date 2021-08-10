@@ -1,0 +1,8 @@
+file=open("e:\\read.txt","r")
+print(file.read())
+print(file.mode)
+print(file.readable())
+print(file.closed)
+print(file.name)
+file.close()
+print(file.closed)

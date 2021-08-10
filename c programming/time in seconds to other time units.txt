@@ -1,0 +1,16 @@
+/* Program to input time in seconds & print how many days , hours and minutes are there :*/
+
+#include<stdio.h>
+int main()
+{
+  float s,m,h,d;
+  
+  printf("enter time in seconds :- ");
+  scanf("%f",&s);
+
+  m=s/60;
+  h=m/60;
+  d=h/24;
+
+  printf("time in minutes :- %f\ntime in hours :- %f\ntime in days :- %f",m,h,d);
+}

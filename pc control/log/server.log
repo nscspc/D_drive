@@ -1,0 +1,164 @@
+INFO  2019-06-06 13:59:11 main: JavaFXTrayIconApp:main(line 81) - Starting RemoteServer.
+INFO  2019-06-06 13:59:11 JavaFX Application Thread: AbstractApplicationContext:prepareRefresh(line 581) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5bf869: startup date [Thu Jun 06 13:59:11 IST 2019]; root of context hierarchy
+INFO  2019-06-06 13:59:11 JavaFX Application Thread: XmlBeanDefinitionReader:loadBeanDefinitions(line 317) - Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO  2019-06-06 13:59:12 JavaFX Application Thread: JavaFXTrayIconApp:start(line 103) - ApplicationContext loaded.
+INFO  2019-06-06 13:59:13 JavaFX Application Thread: JavaFXTrayIconApp:start(line 129) - FXML layouts loaded.
+ERROR 2019-06-06 13:59:13 AWT-EventQueue-0: BlueCoveImpl:detectStack(line 511) - BluetoothStack not detected
+INFO  2019-06-06 13:59:26 JavaFX Application Thread: DialogPublisher:showBluetoothAlertDialog(line 54) - Confirmed disabling not available Bluetooth.
+INFO  2019-06-06 13:59:26 Thread-4: SocketServer:run(line 30) - SocketServer starts.
+INFO  2019-06-06 14:00:47 main: JavaFXTrayIconApp:main(line 81) - Starting RemoteServer.
+INFO  2019-06-06 14:00:48 JavaFX Application Thread: AbstractApplicationContext:prepareRefresh(line 581) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3ab48: startup date [Thu Jun 06 14:00:48 IST 2019]; root of context hierarchy
+INFO  2019-06-06 14:00:48 JavaFX Application Thread: XmlBeanDefinitionReader:loadBeanDefinitions(line 317) - Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO  2019-06-06 14:00:48 JavaFX Application Thread: JavaFXTrayIconApp:start(line 103) - ApplicationContext loaded.
+INFO  2019-06-06 14:00:49 Thread-4: SocketServer:run(line 30) - SocketServer starts.
+ERROR 2019-06-06 14:00:49 Thread-4: SocketServer:run(line 46) - Could not properly close Socket connection
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at cz.rozkovec.remotepc.server.io.SocketServer.run(SocketServer.java:33)
+INFO  2019-06-06 14:00:49 JavaFX Application Thread: JavaFXTrayIconApp:start(line 129) - FXML layouts loaded.
+INFO  2019-06-06 14:00:49 Thread-10: SocketServer:run(line 30) - SocketServer starts.
+ERROR 2019-06-06 14:00:49 Thread-10: SocketServer:run(line 46) - Could not properly close Socket connection
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at cz.rozkovec.remotepc.server.io.SocketServer.run(SocketServer.java:33)
+WARN  2019-06-06 14:00:50 Thread-10: ServerController:clear(line 112) - Multiple restart occurred
+INFO  2019-06-06 14:01:25 main: JavaFXTrayIconApp:main(line 81) - Starting RemoteServer.
+INFO  2019-06-06 14:01:26 JavaFX Application Thread: AbstractApplicationContext:prepareRefresh(line 581) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1424e4f: startup date [Thu Jun 06 14:01:26 IST 2019]; root of context hierarchy
+INFO  2019-06-06 14:01:26 JavaFX Application Thread: XmlBeanDefinitionReader:loadBeanDefinitions(line 317) - Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO  2019-06-06 14:01:26 JavaFX Application Thread: JavaFXTrayIconApp:start(line 103) - ApplicationContext loaded.
+INFO  2019-06-06 14:01:27 Thread-4: SocketServer:run(line 30) - SocketServer starts.
+ERROR 2019-06-06 14:01:27 Thread-4: SocketServer:run(line 46) - Could not properly close Socket connection
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at cz.rozkovec.remotepc.server.io.SocketServer.run(SocketServer.java:33)
+INFO  2019-06-06 14:01:27 JavaFX Application Thread: JavaFXTrayIconApp:start(line 129) - FXML layouts loaded.
+INFO  2019-06-06 14:01:28 Thread-10: SocketServer:run(line 30) - SocketServer starts.
+ERROR 2019-06-06 14:01:28 Thread-10: SocketServer:run(line 46) - Could not properly close Socket connection
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at cz.rozkovec.remotepc.server.io.SocketServer.run(SocketServer.java:33)
+WARN  2019-06-06 14:01:28 Thread-10: ServerController:clear(line 112) - Multiple restart occurred
+INFO  2019-06-06 14:03:00 main: JavaFXTrayIconApp:main(line 81) - Starting RemoteServer.
+INFO  2019-06-06 14:03:00 JavaFX Application Thread: AbstractApplicationContext:prepareRefresh(line 581) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1424e4f: startup date [Thu Jun 06 14:03:00 IST 2019]; root of context hierarchy
+INFO  2019-06-06 14:03:00 JavaFX Application Thread: XmlBeanDefinitionReader:loadBeanDefinitions(line 317) - Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO  2019-06-06 14:03:01 JavaFX Application Thread: JavaFXTrayIconApp:start(line 103) - ApplicationContext loaded.
+INFO  2019-06-06 14:03:01 Thread-4: SocketServer:run(line 30) - SocketServer starts.
+ERROR 2019-06-06 14:03:01 Thread-4: SocketServer:run(line 46) - Could not properly close Socket connection
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at cz.rozkovec.remotepc.server.io.SocketServer.run(SocketServer.java:33)
+INFO  2019-06-06 14:03:01 JavaFX Application Thread: JavaFXTrayIconApp:start(line 129) - FXML layouts loaded.
+INFO  2019-06-06 14:03:02 Thread-10: SocketServer:run(line 30) - SocketServer starts.
+ERROR 2019-06-06 14:03:02 Thread-10: SocketServer:run(line 46) - Could not properly close Socket connection
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at cz.rozkovec.remotepc.server.io.SocketServer.run(SocketServer.java:33)
+WARN  2019-06-06 14:03:02 Thread-10: ServerController:clear(line 112) - Multiple restart occurred
+INFO  2019-06-06 14:03:53 main: JavaFXTrayIconApp:main(line 81) - Starting RemoteServer.
+INFO  2019-06-06 14:03:53 JavaFX Application Thread: AbstractApplicationContext:prepareRefresh(line 581) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3ab48: startup date [Thu Jun 06 14:03:53 IST 2019]; root of context hierarchy
+INFO  2019-06-06 14:03:54 JavaFX Application Thread: XmlBeanDefinitionReader:loadBeanDefinitions(line 317) - Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO  2019-06-06 14:03:54 JavaFX Application Thread: JavaFXTrayIconApp:start(line 103) - ApplicationContext loaded.
+INFO  2019-06-06 14:03:55 Thread-4: SocketServer:run(line 30) - SocketServer starts.
+ERROR 2019-06-06 14:03:55 Thread-4: SocketServer:run(line 46) - Could not properly close Socket connection
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at cz.rozkovec.remotepc.server.io.SocketServer.run(SocketServer.java:33)
+INFO  2019-06-06 14:03:55 JavaFX Application Thread: JavaFXTrayIconApp:start(line 129) - FXML layouts loaded.
+INFO  2019-06-06 14:03:55 Thread-10: SocketServer:run(line 30) - SocketServer starts.
+ERROR 2019-06-06 14:03:55 Thread-10: SocketServer:run(line 46) - Could not properly close Socket connection
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at cz.rozkovec.remotepc.server.io.SocketServer.run(SocketServer.java:33)
+WARN  2019-06-06 14:03:56 Thread-10: ServerController:clear(line 112) - Multiple restart occurred
+INFO  2019-06-15 09:29:10 main: JavaFXTrayIconApp:main(line 81) - Starting RemoteServer.
+INFO  2019-06-15 09:29:11 JavaFX Application Thread: AbstractApplicationContext:prepareRefresh(line 581) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@171fcf1: startup date [Sat Jun 15 09:29:11 IST 2019]; root of context hierarchy
+INFO  2019-06-15 09:29:11 JavaFX Application Thread: XmlBeanDefinitionReader:loadBeanDefinitions(line 317) - Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO  2019-06-15 09:29:13 JavaFX Application Thread: JavaFXTrayIconApp:start(line 103) - ApplicationContext loaded.
+INFO  2019-06-15 09:29:16 JavaFX Application Thread: JavaFXTrayIconApp:start(line 129) - FXML layouts loaded.
+INFO  2019-06-15 09:29:19 Thread-4: SocketServer:run(line 30) - SocketServer starts.
+INFO  2019-06-17 11:47:04 main: JavaFXTrayIconApp:main(line 81) - Starting RemoteServer.
+INFO  2019-06-17 11:47:05 JavaFX Application Thread: AbstractApplicationContext:prepareRefresh(line 581) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2cdc2e: startup date [Mon Jun 17 11:47:05 IST 2019]; root of context hierarchy
+INFO  2019-06-17 11:47:05 JavaFX Application Thread: XmlBeanDefinitionReader:loadBeanDefinitions(line 317) - Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO  2019-06-17 11:47:07 JavaFX Application Thread: JavaFXTrayIconApp:start(line 103) - ApplicationContext loaded.
+INFO  2019-06-17 11:47:08 JavaFX Application Thread: JavaFXTrayIconApp:start(line 129) - FXML layouts loaded.
+INFO  2019-06-17 11:47:08 Thread-4: SocketServer:run(line 30) - SocketServer starts.
+INFO  2019-06-17 19:01:29 main: JavaFXTrayIconApp:main(line 81) - Starting RemoteServer.
+INFO  2019-06-17 19:01:29 JavaFX Application Thread: AbstractApplicationContext:prepareRefresh(line 581) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3ab48: startup date [Mon Jun 17 19:01:29 IST 2019]; root of context hierarchy
+INFO  2019-06-17 19:01:29 JavaFX Application Thread: XmlBeanDefinitionReader:loadBeanDefinitions(line 317) - Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO  2019-06-17 19:01:30 JavaFX Application Thread: JavaFXTrayIconApp:start(line 103) - ApplicationContext loaded.
+INFO  2019-06-17 19:01:31 Thread-4: SocketServer:run(line 30) - SocketServer starts.
+INFO  2019-06-17 19:01:31 JavaFX Application Thread: JavaFXTrayIconApp:start(line 129) - FXML layouts loaded.
+INFO  2019-06-17 20:48:13 main: JavaFXTrayIconApp:main(line 81) - Starting RemoteServer.
+INFO  2019-06-17 20:48:13 JavaFX Application Thread: AbstractApplicationContext:prepareRefresh(line 581) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1e55e5c: startup date [Mon Jun 17 20:48:13 IST 2019]; root of context hierarchy
+INFO  2019-06-17 20:48:13 JavaFX Application Thread: XmlBeanDefinitionReader:loadBeanDefinitions(line 317) - Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO  2019-06-17 20:48:15 JavaFX Application Thread: JavaFXTrayIconApp:start(line 103) - ApplicationContext loaded.
+INFO  2019-06-17 20:48:16 Thread-4: SocketServer:run(line 30) - SocketServer starts.
+INFO  2019-06-17 20:48:16 JavaFX Application Thread: JavaFXTrayIconApp:start(line 129) - FXML layouts loaded.
+INFO  2019-06-18 11:58:45 main: JavaFXTrayIconApp:main(line 81) - Starting RemoteServer.
+INFO  2019-06-18 11:58:46 JavaFX Application Thread: AbstractApplicationContext:prepareRefresh(line 581) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@36002: startup date [Tue Jun 18 11:58:46 IST 2019]; root of context hierarchy
+INFO  2019-06-18 11:58:46 JavaFX Application Thread: XmlBeanDefinitionReader:loadBeanDefinitions(line 317) - Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO  2019-06-18 11:58:47 JavaFX Application Thread: JavaFXTrayIconApp:start(line 103) - ApplicationContext loaded.
+INFO  2019-06-18 11:58:48 JavaFX Application Thread: JavaFXTrayIconApp:start(line 129) - FXML layouts loaded.
+INFO  2019-06-18 11:58:49 Thread-4: SocketServer:run(line 30) - SocketServer starts.
+INFO  2019-06-18 12:48:09 main: JavaFXTrayIconApp:main(line 81) - Starting RemoteServer.
+INFO  2019-06-18 12:48:09 JavaFX Application Thread: AbstractApplicationContext:prepareRefresh(line 581) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2cdc2e: startup date [Tue Jun 18 12:48:09 IST 2019]; root of context hierarchy
+INFO  2019-06-18 12:48:09 JavaFX Application Thread: XmlBeanDefinitionReader:loadBeanDefinitions(line 317) - Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO  2019-06-18 12:48:10 JavaFX Application Thread: JavaFXTrayIconApp:start(line 103) - ApplicationContext loaded.
+INFO  2019-06-18 12:48:10 Thread-4: SocketServer:run(line 30) - SocketServer starts.
+INFO  2019-06-18 12:48:10 JavaFX Application Thread: JavaFXTrayIconApp:start(line 129) - FXML layouts loaded.
+INFO  2019-06-18 13:00:35 main: JavaFXTrayIconApp:main(line 81) - Starting RemoteServer.
+INFO  2019-06-18 13:00:36 JavaFX Application Thread: AbstractApplicationContext:prepareRefresh(line 581) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3ab48: startup date [Tue Jun 18 13:00:36 IST 2019]; root of context hierarchy
+INFO  2019-06-18 13:00:36 JavaFX Application Thread: XmlBeanDefinitionReader:loadBeanDefinitions(line 317) - Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO  2019-06-18 13:00:36 JavaFX Application Thread: JavaFXTrayIconApp:start(line 103) - ApplicationContext loaded.
+INFO  2019-06-18 13:00:37 Thread-4: SocketServer:run(line 30) - SocketServer starts.
+INFO  2019-06-18 13:00:37 JavaFX Application Thread: JavaFXTrayIconApp:start(line 129) - FXML layouts loaded.
+ERROR 2019-06-18 13:00:37 JavaFX Application Thread: BlueCoveImpl:detectStack(line 511) - BluetoothStack not detected
+ERROR 2019-06-18 13:00:37 JavaFX Application Thread: AboutUsController:getBtAddress(line 395) - Could not get Bluetooth address

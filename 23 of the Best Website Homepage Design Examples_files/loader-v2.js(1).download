@@ -1,0 +1,101 @@
+(function() {
+
+    var __hs_cta_json = {"css":"a#cta_button_53_2588998f-a2fd-4406-ba7d-535eab642a9f {\n  -webkit-font-smoothing:antialiased !important; \n  cursor:pointer !important; \n  -moz-user-select:none !important; \n  -webkit-user-select:none !important; \n  -o-user-select:none !important; \n  user-select:none !important; \n  display:inline-block !important; \n  font-weight:bold !important; \n  text-align:center !important; \n  text-decoration:none !important; \n  font-family:sans-serif !important; \n  border-radius:6px !important; \n  background-color:rgb(41,144,255) !important; \n  background-image:-webkit-linear-gradient(top, rgb(41,144,255), rgb(30,108,191)) !important; \n  background-image :-moz-linear-gradient(top, rgb(41,144,255), rgb(30,108,191)) !important; \n  box-shadow:inset 0px 1px rgb(51,180,255) !important; \n  -webkit-box-shadow:inset 0px 1px rgb(51,180,255) !important; \n  -moz-box-shadow:inset 0px 1px rgb(51,180,255) !important; \n  color:rgb(255, 255, 255) !important; \n  border:2px solid rgb(20,72,127) !important; \n  text-shadow:0px -1px rgb(12,43,76) !important; \n  line-height:1.5em !important; \n  padding:6px 16px !important; \n}\na#cta_button_53_2588998f-a2fd-4406-ba7d-535eab642a9f:hover {\nbackground-color:rgb(45,158,255) !important; \nbackground-image:-webkit-linear-gradient(top, rgb(45,158,255), rgb(30,108,191)) !important; \nbackground-image :-moz-linear-gradient(top, rgb(45,158,255), rgb(30,108,191)) !important; \nbox-shadow:inset 0px 1px rgb(55,194,255), 0px 1px 8px rgba(0, 0, 0, 0.3) !important; \n-webkit-box-shadow:inset 0px 1px rgb(55,194,255), 0px 1px 8px rgba(0, 0, 0, 0.3) !important; \n-moz-box-shadow:inset 0px 1px rgb(55,194,255), 0px 1px 8px rgba(0, 0, 0, 0.3) !important; \ncolor:rgb(255,255,255) !important; \nborder:2px solid rgb(24,86,153) !important; \n}\na#cta_button_53_2588998f-a2fd-4406-ba7d-535eab642a9f:active, #cta_button_53_2588998f-a2fd-4406-ba7d-535eab642a9f:active:hover {\nbackground-color:rgb(30,108,191) !important; \nbackground-image:-webkit-linear-gradient(top, rgb(30,108,191), rgb(41,144,255)) !important; \nbackground-image :-moz-linear-gradient(top, rgb(30,108,191), rgb(41,144,255)) !important; \nbox-shadow:inset 0px 1px 10px rgba(0, 0, 0, 0.5) !important; \n-webkit-box-shadow:inset 0px 1px 10px rgba(0, 0, 0, 0.5) !important; \n-moz-box-shadow:inset 0px 1px 10px rgba(0, 0, 0, 0.5) !important; \ncolor:rgb(244,244,244) !important; \n}\n\n","image_html":"<a id=\"cta_button_53_2588998f-a2fd-4406-ba7d-535eab642a9f\" class=\"cta_button\" href=\"/cs/c/?cta_guid=2588998f-a2fd-4406-ba7d-535eab642a9f&placement_guid=a1077f76-df2c-4b45-8ebc-dc2732f30850&portal_id=53&canon=https%3A%2F%2Fblog.hubspot.com%2Fblog%2Ftabid%2F6307%2Fbid%2F34006%2F15-examples-of-brilliant-homepage-design.aspx&redirect_url=APefjpEcghjsqJ9nmWZuOCQCIM0Uj70G8dmyUhqD5Wu9hBHgGCGpTUmdspFH3td7dT25AHOkdpJu6BYsxt0kPKwYiNtRPUaJnZ3l53lMXFZVwU5SLe56PK1WZ2-9--SjiUKHyB_YeIvgkkzgOYJ4XYLMhTesaJTYxL31FmnyQL3SsbTZNaX88sBhR9r4q07CsHMa7QnQY769&click=ed83d722-44da-4518-ade5-08314334f81c&hsutk=c7a00000196715d61d53016b85f92f15&utm_referrer=https%3A%2F%2Fwww.google.com%2F&pageId=24325901\"  target=\"_blank\"  cta_dest_link=\"https://offers.hubspot.com/website-design-homepage-examples?hubs_post-cta=bottom\"><img id=\"hs-cta-img-a1077f76-df2c-4b45-8ebc-dc2732f30850\" class=\"hs-cta-img \" style=\"border-width: 0px; /*hs-extra-styles*/\" mce_noresize=\"1\" alt=\"examples of brilliant homepage, blog, and landing page design\" src=\"https://cdn2.hubspot.net/hub/53/hubfs/MKTG---Bottom---Website-Design-Inspiration.png\" /></a>","is_image":true,"placement_element_class":"hs-cta-a1077f76-df2c-4b45-8ebc-dc2732f30850","raw_html":"<a id=\"cta_button_53_2588998f-a2fd-4406-ba7d-535eab642a9f\" class=\"cta_button \" href=\"/cs/c/?cta_guid=2588998f-a2fd-4406-ba7d-535eab642a9f&placement_guid=a1077f76-df2c-4b45-8ebc-dc2732f30850&portal_id=53&canon=https%3A%2F%2Fblog.hubspot.com%2Fblog%2Ftabid%2F6307%2Fbid%2F34006%2F15-examples-of-brilliant-homepage-design.aspx&redirect_url=APefjpEcghjsqJ9nmWZuOCQCIM0Uj70G8dmyUhqD5Wu9hBHgGCGpTUmdspFH3td7dT25AHOkdpJu6BYsxt0kPKwYiNtRPUaJnZ3l53lMXFZVwU5SLe56PK1WZ2-9--SjiUKHyB_YeIvgkkzgOYJ4XYLMhTesaJTYxL31FmnyQL3SsbTZNaX88sBhR9r4q07CsHMa7QnQY769&click=ed83d722-44da-4518-ade5-08314334f81c&hsutk=c7a00000196715d61d53016b85f92f15&utm_referrer=https%3A%2F%2Fwww.google.com%2F&pageId=24325901\" target=\"_blank\" style=\"/*hs-extra-styles*/\" cta_dest_link=\"https://offers.hubspot.com/website-design-homepage-examples?hubs_post-cta=bottom\" title=\"examples of brilliant homepage, blog, and landing page design\"><span style=\"color: #ffffff; font-size: 24px; font-family: sans-serif; line-height: 1.5em;\">New Call-to-Action</span></a>"};
+    var __hs_cta = {};
+
+    __hs_cta.drop = function() {
+        var is_legacy = document.getElementById('hs-cta-ie-element') && true || false,
+            html = __hs_cta_json.image_html,
+            tags = __hs_cta.getTags(),
+            is_image = __hs_cta_json.is_image,
+            parent, _style;
+
+        if (!is_legacy && !is_image) {
+            parent = (document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]);
+
+            _style = document.createElement('style');
+            parent.insertBefore(_style, parent.childNodes[0]);
+            try {
+                default_css = ".hs-cta-wrapper p, .hs-cta-wrapper div { margin: 0; padding: 0; }";
+                cta_css = default_css + " " + __hs_cta_json.css;
+                // http://blog.coderlab.us/2005/09/22/using-the-innertext-property-with-firefox/
+                _style[document.all ? 'innerText' : 'textContent'] = cta_css;
+            } catch (e) {
+                // addressing an ie9 issue
+                _style.styleSheet.cssText = cta_css;
+            }
+
+            html = __hs_cta_json.raw_html;
+
+        }
+         
+
+        for (var i = 0; i < tags.length; ++i) {
+
+            var tag = tags[i];
+            var images = tag.getElementsByTagName('img');
+            var cssText = "";
+            var align = "";
+            for (var j = 0; j < images.length; j++) {
+                align = images[j].align;
+                images[j].style.border = '';
+                images[j].style.display = '';
+                cssText = images[j].style.cssText;
+            }
+
+            if (align == "right") {
+                tag.style.display = "block";
+                tag.style.textAlign = "right";
+            } else if (align == "middle") {
+                tag.style.display = "block";
+                tag.style.textAlign = "center";
+            }
+
+            tag.innerHTML = html.replace('/*hs-extra-styles*/', cssText);
+            tag.style.visibility = 'visible';
+            tag.setAttribute('data-hs-drop', 'true');
+            window.hbspt && hbspt.cta && hbspt.cta.afterLoad && hbspt.cta.afterLoad('a1077f76-df2c-4b45-8ebc-dc2732f30850');
+        }
+
+        return tags;
+    };
+
+    __hs_cta.getTags = function() {
+        var allTags, check, i, divTags, spanTags,
+            tags = [];
+            if (document.getElementsByClassName) {
+                allTags = document.getElementsByClassName(__hs_cta_json.placement_element_class);
+                check = function(ele) {
+                    return (ele.nodeName == 'DIV' || ele.nodeName == 'SPAN') && (!ele.getAttribute('data-hs-drop'));
+                };
+            } else {
+                allTags = [];
+                divTags = document.getElementsByTagName("div");
+                spanTags = document.getElementsByTagName("span");
+                for (i = 0; i < spanTags.length; i++) {
+                    allTags.push(spanTags[i]);
+                }
+                for (i = 0; i < divTags.length; i++) {
+                    allTags.push(divTags[i]);
+                }
+
+                check = function(ele) {
+                    return (ele.className.indexOf(__hs_cta_json.placement_element_class) > -1) && (!ele.getAttribute('data-hs-drop'));
+                };
+            }
+            for (i = 0; i < allTags.length; ++i) {
+                if (check(allTags[i])) {
+                    tags.push(allTags[i]);
+                }
+            }
+        return tags;
+    };
+
+    // need to do a slight timeout so IE has time to react
+    setTimeout(__hs_cta.drop, 10);
+    
+    window._hsq = window._hsq || [];
+    window._hsq.push(['trackCtaView', 'a1077f76-df2c-4b45-8ebc-dc2732f30850', '2588998f-a2fd-4406-ba7d-535eab642a9f']);
+    
+
+}());

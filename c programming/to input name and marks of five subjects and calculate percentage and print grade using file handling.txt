@@ -1,0 +1,115 @@
+#include<stdio.h>
+void add(void);
+void show(void);
+
+FILE *fptr;
+
+	int n,i,j;
+	struct student
+	{
+		float marks;
+		char name[50];
+		char subject[50];
+	}s;
+
+int main()
+{
+  int choice;
+  char call;
+  printf("1. Add student's record\n2. Show grades\nEnter your choice : ");
+  scanf("%d",&choice);
+  if(choice==1)
+  {
+    add();
+  }
+  else if(choice==2)
+  {
+    show();
+  }
+  else
+  {
+    printf("invalid input");
+    printf("do you want to continue (y/n) : ");
+    scanf("%c",&call);
+    if(call=='y')
+    {
+      main()
+    }
+    else if(call=='n')
+    {
+      print
+    }
+  }
+}
+void add()
+{
+	FILE *fptr;
+		
+	fptr=fopen("student.txt","a");
+	if(fptr==NULL)
+	{
+		printf("cannot open file .");
+	}
+	else
+	{
+		printf("of how many students do you want to enter the record : ");
+		scanf("%d",&n);
+		for(i=0;i<n;i++)
+		{
+			printf("enter name : ");
+			scanf("%s",s.name);
+      fprintf(fptr,"\n%s\n",s.name);
+			for(j=0;j<5;j++)
+			{
+				printf("enter subject name: ");
+				scanf("%s",s.subject);
+				printf("enter marks : ");
+				scanf("%f",&s.marks);
+        fprintf(fptr,"%s\t",s.subject);
+			  fprintf(fptr,"%f",s.marks);
+			}
+    }
+    fclose(fptr);
+  }
+}
+
+void show()
+{
+  fptr=fopen("student.txt","r");
+  float sm,per;
+  while(feof(fptr)==0)
+  {
+    sm=0.0;
+    fscanf(fptr,"%s",s.name);
+    for(j=0;j<5;j++)
+    {
+      fscanf(fptr,"%s",s.subject);
+      fscanf(fptr,"%f",&s.marks);
+      sm=sm+s.marks;
+    }
+    per=sm/5;
+    printf("name = %s",s.name);
+    if(per>50)
+    {
+      printf("\tgrade = C");
+    }
+    else if(per>70)
+    {
+      printf("\tgrade = B");
+    }
+    else if(per>90)
+    {
+      printf("\tgrade = A");
+    }
+    else if(per>30)
+    {
+      printf("\tgrade = D");
+    }
+    else
+    {
+      printf("\tfail");
+    }
+    printf("\n");
+	}
+  fclose(fptr);
+}
