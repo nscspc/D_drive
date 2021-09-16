@@ -1,0 +1,38 @@
+@font-face{
+	font-family: "Roboto";
+	src: "../fonts/Roboto/Roboto-Regular.ttf";
+}
+html,body{
+	margin: 0%;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+}
+:root{
+	--primary-color: #4458dc;
+	--primary-color2: #854fee;
+	--title-color: ;
+	--gradient-color: linear-gradient(90deg,#4458dc 0% ,#854fee 100%);
+	--roboto: "Roboto",cursive;
+}
+
+.header_area .main-menu .navbar .navbar-brand{
+	padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+	padding: 1rem 20rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+	font: :normal 500 15px/2px var(--roboto);
+	text-transform: uppercase;
+	padding: 1.7rem;
+	color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+	background: var(--primary-color2);
+	background-clip: text;
+	ba
+}

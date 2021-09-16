@@ -1,0 +1,28 @@
+body{
+	background: gray;
+}
+.red{
+	color: red;
+}
+.align{
+	text-align: center;
+}
+.white
+{
+	color: white;
+}
+#pic{
+	text-align: center;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 10px;
+	padding: 2%;
+}
+.listalignment{
+	width: 10%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.link:hover{
+	color: red;
+}
